@@ -143,7 +143,6 @@ function ClientForm(): JSX.Element {
   return (
     <View style={{flex: 1}}>
       <View style={styles.inputContainer}>
-        <Text style={styles.screenTitle}>Clientes</Text>
         <TextInput
           style={styles.input}
           onChangeText={handleChageText}
@@ -229,6 +228,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     paddingBottom: 20,
+    marginTop: 10,
     marginHorizontal: 10,
   },
   addButton: {
